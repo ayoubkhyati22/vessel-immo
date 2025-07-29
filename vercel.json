@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "outputDirectory": "api",
+    "functions": {
+      "api/*.js": {
+        "maxDuration": 30
+      }
+    },
+    "routes": [
+      {
+        "src": "/api/vessel",
+        "dest": "/api/vessel.js"
+      },
+      {
+        "src": "/vessel",
+        "dest": "/api/vessel.js"
+      },
+      {
+        "src": "/",
+        "dest": "/api/index.js"
+      }
+    ]
+  }
