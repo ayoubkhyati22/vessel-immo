@@ -1,0 +1,20 @@
+{
+    "name": "vessel-tracker-vercel",
+    "version": "1.0.0",
+    "description": "Vessel tracking API for Vercel deployment",
+    "main": "api/vessel.js",
+    "scripts": {
+        "dev": "vercel dev",
+        "build": "echo 'No build step required'",
+        "start": "vercel dev"
+    },
+    "dependencies": {
+        "axios": "^1.11.0",
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "user-agents": "^1.1.0"
+    },
+    "engines": {
+        "node": "18.x"
+    }
+}
